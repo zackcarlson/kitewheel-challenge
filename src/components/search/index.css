@@ -1,0 +1,29 @@
+.search input {
+  padding: .5rem;
+  border-radius: 2px;
+  transition: border ease 200ms;
+  outline: none;
+  border: 2px solid #2e587b;
+}
+
+.search input:focus {
+  transition: border ease 200ms;
+  outline: none;
+  border: 2px solid #00a19a;
+}
+
+.search input::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.search input::-moz-placeholder {
+  font-style: italic;  
+}
+
+.search input::-moz-placeholder {
+  font-style: italic;  
+}
+
+.search input::-ms-input-placeholder {  
+  font-style: italic; 
+}

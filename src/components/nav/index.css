@@ -1,0 +1,70 @@
+.navbar {
+  padding: 0 1rem;
+  background: white;
+  display: flex;
+  display: -webkit-box;  
+  display: -ms-flexbox;  
+  display: -webkit-flex; 
+  display: flex;         
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ff9100;
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.list-icon {
+  max-width: 20px;
+  height: 20px;
+}
+
+ul.nav-list {
+  cursor: pointer;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  display: -webkit-box;  
+  display: -ms-flexbox;  
+  display: -webkit-flex; 
+  display: flex;         
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: justify;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li.nav-list-item {
+  color: #00a19a;
+  padding: 1rem 1.5rem 1rem 0;
+  font-size: .9rem;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+li.nav-list-item:hover {
+  color: #03645f;
+}
+
+.active {
+  color: #2e587b!important;
+}
+
+li.icon-item {
+  padding: .5rem .1rem;
+}
+
+li img {
+  padding: .4rem;
+  background: #f3f3f3;
+}

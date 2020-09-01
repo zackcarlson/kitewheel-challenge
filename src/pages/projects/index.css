@@ -1,0 +1,19 @@
+.projects-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+header .header-title {
+  color: #2e587b;
+  font-weight: 500;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+}
+
+.tools input {
+  max-width: 250px;
+}
